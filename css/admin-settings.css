@@ -1,0 +1,37 @@
+.large_textarea {
+  width:400px;
+  height:300px;
+}
+
+.short_input {
+  width:15em !important;
+}
+
+.image-upload-button, .license-check-button {
+  cursor: pointer;
+}
+
+.license-input.loading {
+  background:url('img/settings/spinner.gif') no-repeat right center;
+}
+
+.license-input.valid {
+  background:url('img/settings/valid.png') no-repeat right center;
+  padding-right:3px;
+}
+
+.license-input.invalid {
+  background:url('img/settings/invalid.png') no-repeat right center;
+}
+
+.license-message {
+  display: table-cell;
+}
+
+.yellow-message {
+  background-color: lightYellow; border: solid 1px #E6DB55; padding:3px 10px;
+}
+
+.red-message { 
+  background-color: #ffebe8; border: solid 1px #c00; padding:3px 10px;
+}
